@@ -23,9 +23,7 @@ module.exports = {
 					loader: 'swc-loader',
 					options: {
 						jsc: {
-							parser: {
-								syntax: 'ecmascript'
-							}
+							
 						}
 					}
 				}
