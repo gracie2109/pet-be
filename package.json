@@ -6,7 +6,7 @@
   "scripts": {
     "createAdmin": "nodemon --exec ./node_modules/.bin/babel-node ./src/createAdmin.js",
     "start": "SET NODE_ENV=production && node ./dist/bundle.js",
-    "dev": "nodemon --watch j --exec \"nodemon --swc ./src/server.js\"",
+    "dev": "nodemon --exec ./src/server.js",
     "build": "npx webpack --mode production --config webpack.config.js",
     "cleanup": "rm -rf dist && rm -rf build",
     "eslint:fix": "eslint --fix . --ext .js",
