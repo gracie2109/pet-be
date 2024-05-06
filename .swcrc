@@ -6,12 +6,7 @@
 			},
 			"mangle": true
 		},
-		"parser": {
-			"syntax": "typescript",
-			"tsx": false,
-			"decorators": true,
-			"dynamicImport": true
-		},
+	
 		"target": "es2020",
 		"baseUrl": "."
 	},
