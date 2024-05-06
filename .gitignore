@@ -3,7 +3,15 @@
 /.pnp
 .pnp.js
 .yarn/install-state.gz
+
 /trunk
+.trunk
+*.trunk
+
+.idea
+/idea
+*.idea
+
 
 # env
 .env
